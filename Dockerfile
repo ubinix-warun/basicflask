@@ -6,4 +6,4 @@ RUN cd /code; pip install -r requirements.txt
 ADD . /code
 
 EXPOSE 5000
-CMD ["python", "/src/main.py"]
+CMD ["python", "/code/main.py"]
