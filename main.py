@@ -1,6 +1,10 @@
 from flask import Flask
 app = Flask(__name__)
 
+@app.route('/places')
+def places():
+    return 'another route'
+
 @app.route('/')
 def hello_world():
     return 'Hello England again!'
