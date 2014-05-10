@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/places')
 def places():
-    return 'another route'
+    return 'Build speed test'
 
 @app.route('/')
 def hello_world():
