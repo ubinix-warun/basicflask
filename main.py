@@ -10,4 +10,4 @@ def hello_world():
     return 'Hello England again!'
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    print "RUN WOOP"
